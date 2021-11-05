@@ -204,7 +204,7 @@ export declare class Decimal {
   toHex(significantDigits?: number): string;
   toHex(significantDigits: number, rounding?: Decimal.Rounding): string;
 
-  toJSON(): string;
+  toJSON(): number;
 
   toNearest(n: Decimal.Value, rounding?: Decimal.Rounding): Decimal;
 

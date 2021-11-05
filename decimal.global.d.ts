@@ -225,7 +225,7 @@ export declare class Decimal {
   toHex(significantDigits?: number): string;
   toHex(significantDigits: number, rounding?: DecimalRounding): string;
 
-  toJSON(): string;
+  toJSON(): number;
 
   toNearest(n: DecimalValue, rounding?: DecimalRounding): Decimal;
 

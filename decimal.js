@@ -2464,7 +2464,7 @@
       Ctor = x.constructor,
       str = finiteToString(x, x.e <= Ctor.toExpNeg || x.e >= Ctor.toExpPos);
 
-    return x.isNeg() ? '-' + str : str;
+    return parseFloat(x.isNeg() ? '-' + str : str);;
   };
 
 
